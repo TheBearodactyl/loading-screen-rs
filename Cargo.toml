@@ -1,7 +1,12 @@
 [package]
-name = "loading-screen"
+name = "loading_screen"
 version = "0.1.0"
 edition = "2021"
+description = "A loading screen library for Rust"
+license = "Unlicense"
+authors = ["The Bearodactyl <bearodactyl11@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/TheBearodactyl/loading-screen"
 
 [dependencies]
 tokio = { version = "1.38.1", features = ["full"] }
